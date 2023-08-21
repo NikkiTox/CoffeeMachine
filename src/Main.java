@@ -45,7 +45,7 @@ public class Main {
             System.out.println("Недостаточно молока");
             hasErrors = true;
         }
-        // Проверк ошибок
+        // Проверка ошибок
         if (!hasErrors){
             System.out.println("Готовим кофе");
         }
