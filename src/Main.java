@@ -7,7 +7,7 @@ public class Main {
         int lowLactoseMilkAmount = 1462; // in grams
         int cappuchinoMilkRequired = 60; // in grams
         int cappuchinoCoffeeRequired = 15; // in grams
-        boolean isBlocked = false;
+        boolean isBlocked = true;
         // Проверка достаточности молока в кофе-машине
         boolean milkIsEnough = skimmedMilkAmount >= cappuchinoMilkRequired ||
                 milkAmount >= cappuchinoMilkRequired ||
